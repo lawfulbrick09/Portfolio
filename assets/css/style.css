@@ -727,7 +727,14 @@ main {
  */
 
 .clients { margin-bottom: 15px; }
-
+.card{
+  margin: auto;
+  max-width: 405px;
+  padding: 22px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background: transparent;
+}
 .clients-list {
   display: flex;
   justify-content: flex-start;
@@ -749,7 +756,8 @@ main {
 }
 
 .clients-item img {
-  width: 100%;
+  width: 150px;
+  height: 150px;
   filter: grayscale(1);
   transition: var(--transition-1);
 }
